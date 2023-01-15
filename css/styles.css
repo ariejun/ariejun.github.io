@@ -1,0 +1,141 @@
+body {
+  color: #470D21;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #470D21;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #470D21;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #9C0F48;
+}
+
+a {
+  color: #9C0F48;
+}
+a:hover {
+  color: #D67D3E;
+}
+
+p {
+  line-height: 2;
+}
+
+/********* CLASS SELECTORS **************/
+.top-container {
+  background-color: #F9E4D4;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #D67D3E;
+}
+
+.bottom-container {
+  background-color: #F9E4D4;
+  padding: 50px 0 20px 0;
+}
+
+.music {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.picture-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.picture-right {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  margin: 30px auto 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 120px auto 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.horizontal-line {
+  width: 90px;
+  height: 0;
+  color: #F9E4D4;
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 120px auto 120px auto;
+}
+
+.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+  color: #F9E4D4;
+  font-size: 20px;
+  background: #470D21;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9C0F48;
+  text-decoration: none;
+}
+
+.contact-me {
+  padding: 0 0 50px 0;
+  line-height: 2;
+}
+
+.footer-link {
+  margin: 50px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #D67D3E;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
